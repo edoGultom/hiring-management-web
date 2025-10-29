@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "id": "job_20251001_0001",
+            "slug": "frontend-developer",
+            "title": "Frontend Developer",
+            "department": "Engineering",
+            "status": "active",
+            "salary_range": {
+                "min": 7000000,
+                "max": 8500000,
+                "currency": "IDR",
+                "display_text": "Rp7.000.000 - Rp8.500.000"
+            },
+            "list_card": {
+                "badge": "Active",
+                "started_on_text": "started on 1 Oct 2025",
+                "cta": "Manage Job"
+            }
+        },
+        {
+            "id": "job_20251001_0002",
+            "slug": "data-scientist",
+            "title": "Data Scientist",
+            "department": "Engineering",
+            "status": "inactive",
+            "salary_range": {
+                "min": 8000000,
+                "max": 9500000,
+                "currency": "IDR",
+                "display_text": "Rp8.000.000 - Rp9.500.000"
+            },
+            "list_card": {
+                "badge": "Inactive",
+                "started_on_text": "started on 3 Oct 2025",
+                "cta": "Manage Job"
+            }
+        },
+        {
+            "id": "job_20251001_0003",
+            "slug": "data-scientist",
+            "title": "Data Scientist ",
+            "department": "Engineering",
+            "status": "draft",
+            "salary_range": {
+                "min": 7000000,
+                "max": 12000000,
+                "currency": "IDR",
+                "display_text": "Rp7.000.000 - Rp12.000.000"
+            },
+            "list_card": {
+                "badge": "Draft",
+                "started_on_text": "started on 3 Sept 2025",
+                "cta": "Manage Job"
+            }
+        }
+    ]
+}

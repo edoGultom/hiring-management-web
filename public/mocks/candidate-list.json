@@ -1,0 +1,161 @@
+{
+    "data": [
+      {
+        "id": "cand_001",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Aurelie Yukiko" },
+          { "key": "email", "label": "Email", "value": "aureieyukiko@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "082120908766" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Female" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user1" }
+        ]
+      },
+      {
+        "id": "cand_002",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Dityo Hendyawan" },
+          { "key": "email", "label": "Email", "value": "dityohendyawan@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "081184180678" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Female" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user2" }
+        ]
+      },
+      {
+        "id": "cand_003",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Mira Workman" },
+          { "key": "email", "label": "Email", "value": "miraworkman@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "081672007108" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Female" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user3" }
+        ]
+      },
+      {
+        "id": "cand_004",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Paityn Culhane" },
+          { "key": "email", "label": "Email", "value": "paitynculhane@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "081521500714" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Male" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user4" }
+        ]
+      },
+      {
+        "id": "cand_005",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Emerson Baptista" },
+          { "key": "email", "label": "Email", "value": "emersonbaptista@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "082167008244" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Male" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user5" }
+        ]
+      },
+      {
+        "id": "cand_006",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Indra Zein" },
+          { "key": "email", "label": "Email", "value": "indrazein@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "081181630568" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Male" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user6" }
+        ]
+      },
+      {
+        "id": "cand_007",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Joyce" },
+          { "key": "email", "label": "Email", "value": "joyce@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "084288771015" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Female" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user7" }
+        ]
+      },
+      {
+        "id": "cand_008",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Eriberto" },
+          { "key": "email", "label": "Email", "value": "eriberto@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "083862419121" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Male" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user8" }
+        ]
+      },
+      {
+        "id": "cand_009",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Javon" },
+          { "key": "email", "label": "Email", "value": "javon@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "083283445502" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Male" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user9" }
+        ]
+      },
+      {
+        "id": "cand_010",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Emory" },
+          { "key": "email", "label": "Email", "value": "emory@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "087188286367" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Male" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user10" }
+        ]
+      },
+      {
+        "id": "cand_011",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Ella" },
+          { "key": "email", "label": "Email", "value": "ella@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "088306913834" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Male" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user11" }
+        ]
+      },
+      {
+        "id": "cand_012",
+        "job_id": "job_20251001_0001",
+        "attributes": [
+          { "key": "full_name", "label": "Full Name", "value": "Sylvan" },
+          { "key": "email", "label": "Email", "value": "sylvan@yahoo.com" },
+          { "key": "phone_number", "label": "Phone", "value": "087752105228" },
+          { "key": "date_of_birth", "label": "Date of Birth", "value": "30 January 2001" },
+          { "key": "domicile", "label": "Domicile", "value": "Jakarta" },
+          { "key": "gender", "label": "Gender", "value": "Male" },
+          { "key": "linkedin_link", "label": "LinkedIn", "value": "https://www.linkedin.com/in/user12" }
+        ]
+      }
+    ]
+  }
+  

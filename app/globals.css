@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FAFAFA;
+  --foreground: ##404040;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,7 +19,33 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Hilangkan spinner number di Chrome, Edge, Safari */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
+/* Hilangkan spinner number di Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+@layer base{
+     /* === Custom Scrollbar === */
+  ::-webkit-scrollbar {
+    width: 10px;
+    /* height: 123px; */
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-border rounded-[8px] transition-colors duration-200; 
+  }
+
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

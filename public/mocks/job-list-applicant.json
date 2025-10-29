@@ -1,0 +1,101 @@
+{
+    "data": [
+      {
+        "id": "job_20251001_0001",
+        "slug": "frontend-developer",
+        "title": "Frontend Developer",
+        "status": "active",
+        "company": "Rakamin",
+        "location": "Jakarta Selatan",
+        "jobType": "Full-Time",
+        "description": "<ul><li>Develop, test, and maintain responsive, high-performance web applications using modern front-end technologies.</li><li>Collaborate with UI/UX designers to translate wireframes and prototypes into functional code.</li><li>Integrate front-end components with APIs and backend services.</li><li>Ensure cross-browser compatibility and optimize applications for maximum speed and scalability.</li><li>Write clean, reusable, and maintainable code following best practices and coding standards.</li><li>Participate in code reviews, contributing to continuous improvement and knowledge sharing.</li><li>Troubleshoot and debug issues to improve usability and overall application quality.</li><li>Stay updated with emerging front-end technologies and propose innovative solutions.</li><li>Collaborate in Agile/Scrum ceremonies, contributing to sprint planning, estimation, and retrospectives.</li></ul>",
+        "salary_range": {
+          "min": 7000000,
+          "max": 8500000,
+          "currency": "IDR",
+          "display_text": "Rp7.000.000 - Rp8.500.000"
+        }
+      },
+      {
+        "id": "job_20251001_0002",
+        "slug": "backend-developer",
+        "title": "Backend Developer",
+        "status": "active",
+        "company": "Gojek",
+        "location": "Jakarta Pusat",
+        "jobType": "Full-Time",
+        "description": "<ul><li>Design, develop, and maintain scalable backend systems using Node.js, Go, or Java.</li><li>Create RESTful APIs and microservices for internal and external integrations.</li><li>Optimize database queries and ensure data integrity and security.</li><li>Collaborate closely with frontend engineers to deliver seamless user experiences.</li><li>Write unit tests and participate in peer code reviews.</li><li>Monitor and troubleshoot production systems to ensure high availability and performance.</li></ul>",
+        "salary_range": {
+          "min": 9000000,
+          "max": 12000000,
+          "currency": "IDR",
+          "display_text": "Rp9.000.000 - Rp12.000.000"
+        }
+      },
+      {
+        "id": "job_20251001_0003",
+        "slug": "ui-ux-designer",
+        "title": "UI/UX Designer",
+        "status": "active",
+        "company": "Tokopedia",
+        "location": "Jakarta Barat",
+        "jobType": "Part-Time",
+        "description": "<ul><li>Design user interfaces for web and mobile applications with a focus on usability and visual appeal.</li><li>Conduct user research, interviews, and usability testing to gather insights.</li><li>Create wireframes, prototypes, and high-fidelity mockups using Figma or Adobe XD.</li><li>Collaborate with developers to ensure accurate design implementation.</li><li>Maintain and update the design system and component libraries.</li></ul>",
+        "salary_range": {
+          "min": 8000000,
+          "max": 10000000,
+          "currency": "IDR",
+          "display_text": "Rp8.000.000 - Rp10.000.000"
+        }
+      },
+      {
+        "id": "job_20251001_0004",
+        "slug": "mobile-developer",
+        "title": "Mobile Developer",
+        "status": "active",
+        "company": "Traveloka",
+        "location": "Jakarta Selatan",
+        "jobType": "Intern",
+        "description": "<ul><li>Build and maintain high-quality mobile applications using React Native or Flutter.</li><li>Collaborate with backend teams to integrate APIs and services.</li><li>Implement modern mobile UI/UX principles to ensure intuitive user experiences.</li><li>Optimize app performance for various devices and operating systems.</li><li>Participate in agile development processes, including code reviews and testing.</li></ul>",
+        "salary_range": {
+          "min": 10000000,
+          "max": 14000000,
+          "currency": "IDR",
+          "display_text": "Rp10.000.000 - Rp14.000.000"
+        }
+      },
+      {
+        "id": "job_20251001_0005",
+        "slug": "data-analyst",
+        "title": "Data Analyst",
+        "status": "active",
+        "company": "Shopee",
+        "location": "Jakarta Utara",
+        "jobType": "Freelance",
+        "description": "<ul><li>Collect, clean, and analyze large datasets to support business decisions.</li><li>Create dashboards and reports using tools like Tableau, Power BI, or Google Data Studio.</li><li>Work closely with product and marketing teams to identify insights and trends.</li><li>Develop SQL queries and scripts for data extraction and transformation.</li><li>Present analytical findings and recommendations to stakeholders.</li></ul>",
+        "salary_range": {
+          "min": 9000000,
+          "max": 11000000,
+          "currency": "IDR",
+          "display_text": "Rp9.000.000 - Rp11.000.000"
+        }
+      },
+      {
+        "id": "job_20251001_0006",
+        "slug": "project-manager",
+        "title": "Project Manager",
+        "status": "active",
+        "company": "Dana Indonesia",
+        "location": "Jakarta Pusat",
+        "jobType": "Full-Time",
+        "description": "<ul><li>Lead and manage cross-functional teams to deliver projects on time and within scope.</li><li>Define project goals, deliverables, and success metrics.</li><li>Create and maintain project plans, timelines, and budgets.</li><li>Communicate effectively with stakeholders and provide regular progress updates.</li><li>Identify risks and implement mitigation strategies.</li><li>Foster collaboration and maintain a positive team environment.</li></ul>",
+        "salary_range": {
+          "min": 12000000,
+          "max": 16000000,
+          "currency": "IDR",
+          "display_text": "Rp12.000.000 - Rp16.000.000"
+        }
+      }
+    ]
+  }
+  
