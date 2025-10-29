@@ -7,7 +7,12 @@ export async function middleware(req: NextRequest) {
   const url = req.nextUrl.pathname;
   const origin = req.nextUrl.origin;
 
-  if (!token && (url.startsWith("/admin") || url.startsWith("/jobs"))) {
+  if (
+    !token &&
+    (url.startsWith("/admin") ||
+      url.startsWith("/jobs") ||
+      url.startsWith("/applicant"))
+  ) {
     return NextResponse.redirect(new URL("/login", origin));
   }
   // ---- Jika sudah login ----
@@ -44,5 +49,5 @@ export async function middleware(req: NextRequest) {
   return NextResponse.next();
 }
 export const config = {
-  matcher: ["/admin/:path*", "/jobs/:path*", "/login"],
+  matcher: ["/admin/:path*", "/jobs/:path*", "/applicant/:path*", "/login"],
 };
