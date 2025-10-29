@@ -10,7 +10,12 @@ import { useForm } from "react-hook-form";
 
 const LoginPage: React.FC = () => {
   const router = useRouter();
-  const { handleSubmit, formState, control, reset } = useForm<AuthFormData>({
+  const {
+    handleSubmit,
+    formState: { errors, isLoading },
+    control,
+    reset,
+  } = useForm<AuthFormData>({
     resolver: zodResolver(authSchema),
     mode: "onChange",
   });
@@ -77,7 +82,7 @@ const LoginPage: React.FC = () => {
                   type="email"
                   name="email"
                   label="Alamat email"
-                  error={formState.errors.email?.message}
+                  error={errors.email?.message}
                 />
                 <FormField
                   control={control}
@@ -85,10 +90,11 @@ const LoginPage: React.FC = () => {
                   name="password"
                   type="password"
                   label="Kata sandi"
-                  error={formState.errors.password?.message}
+                  error={errors.password?.message}
                 />
                 <Button
                   type="submit"
+                  disabled={isLoading}
                   className="w-full h-auto bg-secondary-main hover:bg-secondary-hover rounded-[8px] shadow-button px-2 py-[6px]"
                 >
                   <span className="text-text-l font-bold text-neutral-90 ">
