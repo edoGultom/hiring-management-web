@@ -78,7 +78,7 @@ const ApplicantPage: React.FC = () => {
       </div>
 
       {/* Bagian kanan (detail data) */}
-      <div className="flex-1 p-6  rounded-lg border border-neutral-40 overflow-hidden">
+      <div className="flex-1 p-6  rounded-lg border border-red-100 overflow-hidden">
         {selectedItem ? (
           <div className="flex justify-between">
             <div className="flex flex-col gap-6 ">

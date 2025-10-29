@@ -3,7 +3,6 @@
 import ModalCreateJob from "@/components/admin/ModalCreateJob";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/form/Input";
-
 import { ScrollArea, ScrollBar } from "@/components/ui/ScrollArea";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
@@ -13,13 +12,17 @@ import { Job } from "@/types/jobs.type";
 const JobListPage: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [jobs, setJobs] = useState<Job[]>([]);
+  const [filteredJobs, setFilteredJobs] = useState<Job[]>([]);
+  const [searchTerm, setSearchTerm] = useState("");
   const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     const fetchJobs = async () => {
       try {
         const res = await fetch("/mocks/job-list.json");
         const data = await res.json();
         setJobs(data.data || []);
+        setFilteredJobs(data.data || []);
       } catch (error) {
         console.error("Error fetching jobs:", error);
       } finally {
@@ -28,6 +31,20 @@ const JobListPage: React.FC = () => {
     };
     fetchJobs();
   }, []);
+
+  // 🔍 Handle Search
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.toLowerCase();
+    setSearchTerm(value);
+
+    const filtered = jobs.filter((job) => {
+      const title = job.title?.toLowerCase() || "";
+      return title.includes(value);
+    });
+
+    setFilteredJobs(filtered);
+  };
+
   if (loading) {
     return <p className="text-center text-neutral-60">Loading jobs...</p>;
   }
@@ -41,15 +58,17 @@ const JobListPage: React.FC = () => {
               <Input
                 type="text"
                 placeholder="Search by job details"
-                className="w-full h-auto px-4 py-2.5 bg-neutral-10 rounded-[8px] border-2 border-neutral-30 placeholder:text-neutral-70 text-text-m font-regular "
+                value={searchTerm}
+                onChange={handleSearch}
+                className="w-full h-auto px-4 py-2.5 bg-neutral-10 rounded-[8px] border-2 border-neutral-30 placeholder:text-neutral-70 text-text-m font-regular"
               />
-              <MagnifyingGlassIcon className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 text-primary-main " />
+              <MagnifyingGlassIcon className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 text-primary-main" />
             </div>
           </div>
 
           <ScrollArea className="flex-1 h-[calc(100vh-160px)]">
-            {jobs.length > 0 ? (
-              <AdminJobList jobs={jobs} />
+            {filteredJobs.length > 0 ? (
+              <AdminJobList jobs={filteredJobs} />
             ) : (
               <div className="flex flex-col items-center justify-center gap-4 min-h-[600px]">
                 <img
@@ -78,14 +97,10 @@ const JobListPage: React.FC = () => {
               </div>
             )}
 
-            {/*  JOB EXIST*/}
-
             <ScrollBar
               orientation="vertical"
               className="w-2.5 bg-neutral-10 rounded-2xl"
-            >
-              <div className="w-full h-[123px] bg-primary-main rounded-lg" />
-            </ScrollBar>
+            />
           </ScrollArea>
         </div>
 
@@ -94,9 +109,7 @@ const JobListPage: React.FC = () => {
             className="relative rounded-[16px] overflow-hidden border-0 bg-center bg-cover bg-no-repeat"
             style={{ backgroundImage: `url(/images/statistik.jpg)` }}
           >
-            {/* Overlay hitam */}
             <div className="absolute inset-0 bg-[#000000B8] z-10" />
-            {/* Konten di atas overlay */}
             <div className="relative z-20 flex flex-col items-center justify-center gap-6 p-6">
               <div className="flex flex-col items-start gap-1 w-full">
                 <h3 className="font-bold text-text-xl text-neutral-40">
@@ -118,7 +131,7 @@ const JobListPage: React.FC = () => {
           </div>
         </aside>
       </div>
-      {/* Modal Create a new job */}
+
       {isOpen && <ModalCreateJob onClose={() => setIsOpen(false)} />}
     </>
   );
