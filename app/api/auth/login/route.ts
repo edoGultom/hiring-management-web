@@ -3,8 +3,8 @@ import { AuthCredentials, AuthResponse } from "@/types/auth.type";
 import { NextRequest, NextResponse } from "next/server";
 
 const MOCK_USERS = [
-  { email: "admin", password: "admin123", role: "admin" },
-  { email: "applicant", password: "user123", role: "applicant" },
+  { email: "admin@mail.com", password: "admin123", role: "admin" },
+  { email: "applicant@mail.com", password: "user123", role: "applicant" },
 ];
 
 export async function POST(request: NextRequest) {

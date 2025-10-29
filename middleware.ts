@@ -5,6 +5,7 @@ import { verifyToken } from "@/lib/jwt";
 export async function middleware(req: NextRequest) {
   const token = req.cookies.get("token")?.value;
   const url = req.nextUrl.pathname;
+  const origin = req.nextUrl.origin;
 
   if (!token && (url.startsWith("/admin") || url.startsWith("/jobs"))) {
     return NextResponse.redirect(new URL("/login", origin));

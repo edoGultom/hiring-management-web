@@ -74,6 +74,7 @@ const LoginPage: React.FC = () => {
                 <FormField
                   control={control}
                   id="email"
+                  type="email"
                   name="email"
                   label="Alamat email"
                   error={formState.errors.email?.message}

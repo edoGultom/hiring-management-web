@@ -25,20 +25,20 @@ Aplikasi ini memungkinkan Admin membuat dan mengelola lowongan kerja, serta mena
 **Admin**
 
 ```bash
-    Email: admin
+    Email: admin@mail.com
     Password: admin123
 ```
 
 **Applicant**
 
 ```bash
-    Email: applicant
+    Email: applicant@mail.com
     Password: user123
 ```
 
 ## 🚀 Live Demo
 
-[URL Deploy] — (misal: https://hiring-management-yourname.vercel.app)
+https://hiring-management-muzmg69io-edo10395s-projects.vercel.app
 
 ## ⚙️ Installation & Setup
 
