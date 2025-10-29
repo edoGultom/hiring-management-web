@@ -12,7 +12,7 @@ const LoginPage: React.FC = () => {
   const router = useRouter();
   const {
     handleSubmit,
-    formState: { errors, isLoading },
+    formState: { errors, isSubmitting },
     control,
     reset,
   } = useForm<AuthFormData>({
@@ -94,8 +94,10 @@ const LoginPage: React.FC = () => {
                 />
                 <Button
                   type="submit"
-                  disabled={isLoading}
-                  className="w-full h-auto bg-secondary-main hover:bg-secondary-hover rounded-[8px] shadow-button px-2 py-[6px]"
+                  variant={isSubmitting ? "disabled" : "secondary"}
+                  disabled={isSubmitting}
+                  size="default"
+                  className="w-full h-auto"
                 >
                   <span className="text-text-l font-bold text-neutral-90 ">
                     Masuk

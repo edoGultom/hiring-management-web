@@ -76,11 +76,14 @@ const RegisterPage: React.FC = () => {
               </div>
 
               <Button
-                className="w-full h-auto bg-secondary-main hover:bg-secondary-hover rounded-[8px] shadow-button px-2 py-[6px]"
                 type="submit"
+                variant={formState.isSubmitting ? "disabled" : "secondary"}
+                disabled={formState.isSubmitting}
+                size="default"
+                className="w-full h-auto"
               >
                 <span className="text-text-l font-bold text-neutral-90 ">
-                  Daftar
+                  Masuk
                 </span>
               </Button>
             </form>
