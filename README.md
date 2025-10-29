@@ -38,7 +38,7 @@ Aplikasi ini memungkinkan Admin membuat dan mengelola lowongan kerja, serta mena
 
 ## 🚀 Live Demo
 
-https://hiring-management-muzmg69io-edo10395s-projects.vercel.app
+https://hiring-management-web.vercel.app
 
 ## ⚙️ Installation & Setup
 
