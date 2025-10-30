@@ -46,7 +46,7 @@ https://hiring-management-web.vercel.app
 
 ```bash
 git clone https://github.com/edoGultom/hiring-management-web
-cd qubicball-frontend-test
+cd hiring-management-web
 ```
 
 2. Install dependencies:
